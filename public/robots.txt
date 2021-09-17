@@ -1,3 +1,14 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /
+
+User-agent: Googlebot
+Allow : / 
+Disallow: /api*/
+Disallow: /oauth*/
+Disallow: /userprofile*/
+
+User-agent: Yeti
+Allow: /
+Disallow: /api*/
+Disallow: /oauth*/
+Disallow: /userprofile*/
