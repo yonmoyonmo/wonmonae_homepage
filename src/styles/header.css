@@ -1,0 +1,8 @@
+.header{
+  background-color: rgb(160, 160, 221);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 10px;
+  overflow-y: scroll;
+}
+.section {
+  height: 100%;
+  scroll-snap-align: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .section:nth-of-type(odd){
+  background-color: rgb(85, 231, 231);
+  color: rgb(104, 33, 167);
+}
+.container .section:nth-of-type(even){
+  background-color: rgb(55, 167, 167);
+  color: rgb(63, 12, 110);
+}
+
+
+body .container section h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+}
