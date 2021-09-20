@@ -72,7 +72,7 @@ body .container .section h1 {
   align-items: center;
   gap: 30px;
 }
-.products .products_links{
+.products .products_links {
   margin-top: 40px;
   width: 100%;
   display: flex;
@@ -82,4 +82,15 @@ body .container .section h1 {
 
 .products a {
   text-decoration: none;
+}
+
+/*about page*/
+.info{
+  margin: 1rem;
+}
+.baggerWonmo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
 }
