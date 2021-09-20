@@ -1,10 +1,13 @@
 .header{
-  background-color: rgb(160, 160, 221);
+  background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   left: 0;
-  height: 100px;
   width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  box-shadow: 2px 0px 5px grey;
 }
 
 .header .dropdown{
@@ -55,8 +58,7 @@
   background-color: bisque;
 }
 
-.header .logo{
-  text-align: center;
-  width: 100%;
-  font-size: 2rem;
+.header img{
+  width: 200px;
+  object-fit: scale-down;
 }

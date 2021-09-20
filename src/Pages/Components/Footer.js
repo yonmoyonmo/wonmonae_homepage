@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <h1>footer</h1>
-        <p>loremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
+        <img src="/images/homepageHeader.png"></img>
       </div>
     </>
   );
