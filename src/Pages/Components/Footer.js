@@ -1,12 +1,17 @@
 import React from "react";
 import "../../styles/footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <div className="footer">
-        <h1>footer</h1>
-        <img src="/images/homepageHeader.png"></img>
+          <div className="link">
+            <Link to="/products">Products</Link>
+          </div>
+          <div className="link">
+            <Link to="/contact">About</Link>
+          </div>
       </div>
     </>
   );

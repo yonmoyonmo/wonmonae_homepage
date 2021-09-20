@@ -3,13 +3,13 @@ import "../styles/home.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
-const Products = () => {
+const Information = () => {
   return (
     <>
       <Header></Header>
       <div className="container">
         <div className="section">
-          <p>products</p>
+          <p>information</p>
         </div>
       </div>
       <Footer></Footer>
@@ -17,4 +17,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Information;

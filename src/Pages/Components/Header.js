@@ -4,17 +4,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
-      {/* <div className="dropdown">
-        <button className="dropdown_hover"></button>
-        <div className="dropdown_menu">
-          <Link to="/products">Products</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
-      </div> */}
-
-      <img src="/images/homepageHeader.png"></img>
-    </div>
+    <a href="/">
+      <div className="header">
+        <img src="/images/homepageHeader.png"></img>
+      </div>
+    </a>
   );
 };
 

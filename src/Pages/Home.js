@@ -9,28 +9,24 @@ const Home = () => {
       <Header></Header>
       <div className="container">
         <div className="section">
-          <h1>1</h1>
+          <h1>MAKES</h1>
         </div>
         <div className="section">
-          <h1>2</h1>
+          <h1>SIMPLE</h1>
         </div>
         <div className="section">
-          <h1>3</h1>
+          <h1>APPS</h1>
         </div>
         <div className="section">
-          <h1>4</h1>
+          <h1>FOR YOU.</h1>
         </div>
         <div className="section">
-          <h1>5</h1>
+          <div className="bottom_logo">
+            <img src="/images/noletters.png" />
+          </div>
         </div>
-        <div className="section">
-          <h1>6</h1>
-        </div>
-        <div className="section">
         <Footer></Footer>
-        </div>
       </div>
-      
     </>
   );
 };
