@@ -7,7 +7,7 @@
   overflow-y: scroll;
 }
 .container::-webkit-scrollbar {
-  width:0
+  width: 0;
 }
 .section {
   width: 100%;
@@ -17,26 +17,69 @@
   justify-content: center;
   align-items: center;
 }
-.container .section:nth-of-type(odd){
+.container .section:nth-of-type(odd) {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
-.container .section:nth-of-type(even){
+.container .section:nth-of-type(even) {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
-body .container .section h1{
-  font-family:'Times New Roman', Times, serif;
+body .container .section h1 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
 }
-.section img{
+.section img {
+  border-radius: 40px;
   width: 100%;
   object-fit: cover;
 }
-.section .bottom_logo{
+.section .bottom_logo {
   width: 300px;
 }
-.section .bottom_logo #slogan{
+.section .bottom_logo #slogan {
   font-size: 1rem;
   font-weight: normal;
+}
+
+/*products page*/
+.products {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products p {
+  width: 100%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.products_storeLogo {
+  width: 200px;
+}
+.products_appLogo {
+  width: 150px;
+}
+.products .products_desc {
+  margin-top: 30px;
+  text-align: left;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.products .products_links{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.products a {
+  text-decoration: none;
 }

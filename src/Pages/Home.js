@@ -18,7 +18,7 @@ const Home = () => {
           <h1>APPS</h1>
         </div>
         <div className="section">
-          <h1>FOR YOU.</h1>
+          <h1>FOR YOU!</h1>
         </div>
         <div className="section">
           <div className="bottom_logo">
