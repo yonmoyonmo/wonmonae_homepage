@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -16,7 +17,9 @@ const Products = () => {
 
             <div className="products_desc">
               <div className="products_appLogo">
-                <img src="/images/smallTalkHelperIcon.png"></img>
+                <Link to="/info/small-talk-helper">
+                  <img src="/images/smallTalkHelperIcon.png"></img>
+                </Link>
               </div>
               <div>
                 <p>대화 주제 생성기입니다.</p>
