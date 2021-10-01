@@ -1,4 +1,4 @@
-.footer{
+.footer {
   background-color: rgb(0, 0, 0);
   position: fixed;
   bottom: 0;
@@ -10,17 +10,19 @@
   text-align: center;
   color: white;
 }
-.footer p{
-  font-family: 'Courier New', Courier, monospace;
+.footer p {
+  font-family: "DungGeunMo";
   font-size: 1.3rem;
 }
 
 .footer a {
   color: white;
   text-decoration: none;
+  font-family: "DungGeunMo";
 }
 
-.footer .link{
+.footer .link {
   display: inline-block;
   margin: 1rem;
+  font-family: "DungGeunMo";
 }

@@ -5,6 +5,7 @@
   scroll-snap-type: y mandatory;
   scroll-padding: 10px;
   overflow-y: scroll;
+  font-family: "DungGeunMo";
 }
 .container::-webkit-scrollbar {
   width: 0;
@@ -26,7 +27,7 @@
   color: rgb(255, 255, 255);
 }
 body .container .section h1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "DungGeunMo";
   font-size: 3rem;
 }
 .section img {
@@ -85,7 +86,7 @@ body .container .section h1 {
 }
 
 /*about page*/
-.info{
+.info {
   margin: 1rem;
 }
 .baggerWonmo {
