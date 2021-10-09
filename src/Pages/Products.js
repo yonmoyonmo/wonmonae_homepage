@@ -35,6 +35,11 @@ const Products = () => {
                   <img src="/images/playstoreLogo2.png"></img>
                 </div>
               </a>
+              <a href="https://apps.apple.com/us/app/small-talk-helper/id1588030019">
+                <div className="products_storeLogo">
+                  <img src="/images/apple.png"></img>
+                </div>
+              </a>
             </div>
           </div>
         </div>
