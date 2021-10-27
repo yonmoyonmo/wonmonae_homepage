@@ -45,7 +45,7 @@ body .container .section h1 {
 
 /*products page*/
 .products {
-  padding: 2rem;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
