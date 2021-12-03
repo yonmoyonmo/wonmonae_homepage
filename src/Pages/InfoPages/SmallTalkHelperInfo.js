@@ -1,12 +1,9 @@
 import React from "react";
 import "../../styles/home.css";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 
 const SmallTalkHelperInfo = () => {
   return (
     <>
-      <Header></Header>
       <div className="container">
         <div className="section">
           <div className="products">
@@ -39,7 +36,6 @@ const SmallTalkHelperInfo = () => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 };

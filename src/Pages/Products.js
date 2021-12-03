@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/home.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 
 const Products = () => {
   return (
     <>
-      <Header></Header>
       <div className="container">
         <div className="section">
           <div className="products">
@@ -50,7 +47,6 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 };
